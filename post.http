@@ -1,0 +1,25 @@
+GET http://localhost:8080/api
+
+###
+
+GET http://localhost:8080/api/posts
+
+###
+
+POST http://localhost:8080/api/posts
+Content-Type: application/json 
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjMsImlzcyI6ImltZC1iYWNrZW5kIiwiYXVkIjoiaW1kLWZyb250ZW5kIiwiZW1haWwiOiJkYXJrbGFkeUBnbWFpbC5jb20iLCJpYXQiOjE3Mzc2ODIzMjAsImV4cCI6MTczNzY4MjM2MH0.lvybGe3EziAu5s03Evl__4OWmom6-2k1BOkqdnxAIGo
+
+    
+{
+    "titulo":"Xadrez: O Jogo da Estratégia e da Mente",
+    "texto": "O xadrez é muito mais do que um simples jogo de tabuleiro; é uma verdadeira batalha intelectual entre dois jogadores. Originado há séculos, ele combina estratégia, paciência e criatividade, desafiando seus praticantes a prever movimentos e a tomar decisões calculadas. Com 64 casas e 32 peças, cada partida oferece milhões de possibilidades, tornando cada jogo único. Mais do que uma competição, o xadrez promove habilidades como concentração, pensamento lógico e resolução de problemas, sendo amplamente usado em escolas e programas de desenvolvimento cognitivo. Seja para lazer ou como esporte, o xadrez conecta pessoas ao redor do mundo, provando que o poder da mente não tem limites. Que tal iniciar essa aventura no tabuleiro?",
+    "userId": 3
+}
+
+
+###
+    
+    
+
+DELETE http://localhost:8080/api/posts?id=5

@@ -1,0 +1,32 @@
+GET http://localhost:8080/api
+
+###
+
+GET http://localhost:8080/api/usuarios
+
+###
+
+POST http://localhost:8080/api/usuarios
+Content-Type: application/json 
+    
+{
+    "email": "darklady13@gmail.com",
+    "senha": "senha2"
+
+}
+
+
+###
+
+POST http://localhost:8080/api/usuarios/login
+Content-Type: application/json
+
+{
+    "email": "darklady13@gmail.com",
+    "senha": "senha2"
+}   
+
+###
+
+
+DELETE http://localhost:8080/api/usuarios?id=2
